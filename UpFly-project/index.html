@@ -14,7 +14,7 @@
         <header> 
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-12 d-flex flex-row justify-content-between align-items-center p-2 bd-highlight">
+                        <div class="col-xl-12 col-md-12 d-flex flex-row justify-content-between align-items-center p-2 bd-highlight">
                             <div>
                                 <img src="img/pngwingcom 1.png" alt="">
                             </div>
@@ -38,19 +38,26 @@
 
         <section>
             <div class="container">
-                <div class="row">
-                    <div class="col-12 d-flex flex-row justify-content-between align-items-center">
-                        <div>
+                <div class="row mt-5">
+                    <div class="d-flex flex-row justify-content-between align-items-center">
+                        <div class="col-xl-6 col-md-12 content-container">
+                            <div class="star-container">
+                                <img class="star-1" src="img/Star 1.svg" alt="">
+                                <img class="star-2" src="img/Star 2.svg" alt="">
+                                <img class="ellipse" src="img/Ellipse 1.svg" alt="">
+                            </div>
                             <h2>Цветы для самых любимых</h2>
                             <p>Каждый день мы создаем новую крмпозицию из свежих, сезонных цветов</p>
-                            <button type="button" data-bs-toggle="modal" data-bs-target="#myModal">Launch modal</button>     
+                            <button class="mt-4" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Заказать сейчас</button>     
                         </div>
-                        <div class="d-flex flex-row justify-content-between align-items-center">
-                            <div><img src="img/Rectangle 10.png" alt=""></div>
-                            <div class="d-flex flex-column justify-content-start">
-                                <a href="#"><img src="icons/twitter.svg" alt=""></a>
-                                <a href="#"><img src="icons/p.svg" alt=""></a>
-                                <a href="#"><img src="icons/youtube.svg" alt=""></a>
+                        <div class="col-xl-6 col-md-12 content-img d-flex flex-row justify-content-end align-items-end">
+                            <div class=" img-rectangle d-flex flex-column justify-content-center align-items-center">
+                                <img src="./img/rect.png" alt="">
+                            </div>
+                            <div class="icons-container d-flex flex-column justify-content-end align-items-center">
+                                <a class="ic" href="#"><img src="icons/twitter.svg" alt=""></a>
+                                <a class="ic" href="#"><img src="icons/p.svg" alt=""></a>
+                                <a class="ic" href="#"><img src="icons/youtube.svg" alt=""></a>
                                 <a href="#"><img src="icons/Facebook.svg" alt=""></a>
                             </div>
                         </div>
@@ -58,21 +65,96 @@
                 </div>
             </div>
         </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 content-line d-flex flex-column justify-content-center align-items-center">
+                        <div>
+                            <img src="img/lineVector.svg" alt="">
+                            <p>5 шагов к авторскому букету</p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-row justify-content-center align-items-beetwen">
+                        <div class="footer-content-cell d-flex flex-column justify-content-between">
+                            <div class="d-flex flex-row justify-content-around align-items-center">
+                                <img src="img/1.png" alt="">
+                                <img src="img/Vector 2.svg" alt="">
+                            </div>
+                            <h3>Заказ</h3>
+                            <p>Выберите букет и оформите заказ</p>
+                        </div>
+                        
+                        <div class="footer-content-cell d-flex flex-column justify-content-between">
+                            <div class="d-flex flex-row justify-content-around align-items-center">
+                                <img src="img/2.png" alt="">
+                                <img src="img/Vector 3.svg" alt="">
+                            </div>
+                            <h3>Детали</h3>
+                            <p>Мы вам перезвоним в течение 10 минут и уточним детали</p>
+                        </div>
+
+                        <div class="footer-content-cell d-flex flex-column justify-content-between">
+                            <div class="d-flex flex-row justify-content-around align-items-center">
+                                <img src="img/3.png" alt="">
+                                <img src="img/Vector 4.svg" alt="">
+                            </div>
+                            <h3>Оплата</h3>
+                            <p>Оплатите онлайн или при получении</p>
+                        </div>
+
+                        <div class="footer-content-cell d-flex flex-column justify-content-between">
+                            <div class="d-flex flex-row justify-content-around align-items-center">
+                                <img src="img/4.png" alt="">
+                                <img src="img/Vector 5.svg" alt="">
+                            </div>
+                            <h3>Сборка и упаковка</h3>
+                            <p>Собререм букет с учетом ваших пожеланий и упакуем для доставки</p>
+                        </div>
+
+                        <div class="footer-content-cell d-flex flex-column justify-content-between"> 
+                            <div class="d-flex flex-row justify-content-start align-items-center">
+                                <img src="img/5.png" alt="">
+                            </div>
+                            <h3>Доставка</h3>
+                            <p>Курьер позвонит за час и доставит букет во время</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
       
         <div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                  <h5 class="modal-title" id="staticBackdropLabel">Обратный звонок</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  fgdgdfgdfgfdgf
+                    <form>
+                        <div class="mb-3 form-name">
+                          <label for="exampleInputName" class="form-label">*Имя</label>
+                          <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Николай">
+                        </div>
+                        <div class="mb-3 form-phone">
+                          <label for="exampleInputPhone" class="form-label">*Телефон</label>
+                          <input type="tel" class="form-control" id="exampleInputPhone">
+                          <div id="emailHelp" class="form-text">*Нажимия кнопку “Оставить заявку” я даю согласие на обработку данных</div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Understood</button>
-                </div>
+
               </div>
             </div>
           </div>
