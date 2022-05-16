@@ -181,7 +181,6 @@ body {
 
 .modal-content {
     width: 35rem;
-    height: 25rem;
     padding: 2rem;
     text-align: center;
 }
@@ -193,3 +192,58 @@ body {
 .form-phone {
     text-align: start;
 }
+
+.modal-title {
+    margin-left: 2rem;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 47px;
+    color: #161616;
+}
+
+.modal-button {
+    background-color: #69766D;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #F6F6F5;
+    padding: 18px 40px;
+}
+
+/* burger */
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* .burger-menu {
+    display: none;
+} */
+.burger-menu-content {
+    background-color: #D8BFA9;
+}
+
+.burger-menu-content h4 {
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #F6F6F5;
+}
+
+.burger-menu-content div {
+    padding: 0.7rem;
+}
+
+.burger-icon {
+    width: 3rem;
+    height: 3rem;
+    padding: 8px;
+}
+
+
