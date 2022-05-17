@@ -19,19 +19,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 650);
         document.body.style.background = '#F6F6F5';
     })
-
-    // burgerContainer.addEventListener('click', () =>{
-    //     const _BurgerContainer = burgerContainer.addEventListener('click') = true; 
-    //     if ( !_BurgerContainer) {
-    //         burgerContainer.classList.remove('burger-container-mini-translatePlus');
-    //         burgerContainer.classList.add('burger-container-minitranslateMinus');
-    //         setTimeout(() => {
-    //             burgerContainer.style.display = 'none';
-    //         }, 650);
-    //         document.body.style.background = '#F6F6F5';
-    //     }
-    // } )
-
-
 })
 
